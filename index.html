@@ -1,86 +1,124 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buying Housing</title>
     <!-- google font link -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- daisyui cdn -->    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- font awesome kits -->
- <script src="https://kit.fontawesome.com/30b57e2b03.js" crossorigin="anonymous"></script>
-      <!-- google font style -->
-       <style>
-        .manrope-text{
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome kits -->
+    <script src="https://kit.fontawesome.com/30b57e2b03.js" crossorigin="anonymous"></script>
+    <!-- google font style -->
+    <style>
+        .manrope-text {
             font-family: "Manrope", sans-serif;
         }
-       </style>
+    </style>
 </head>
+
 <body class="manrope-text">
     <header class="md:container mx-auto bg-[#FFFFFFFF]">
-          <nav>
+        <nav>
             <div class="navbar bg-base-100 my-10">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
-      </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-      <li><a>Services</a></li>
-       <li><a>Portfolio</a></li>
-        <li><a>Blogs</a></li>
-         <li><a>Contact Us</a></li>
-      </ul>
-      
-    </div>
-    <a class="text-xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full w-5 h-5"></i> <span class="text-2xl font-bold text-[#212121]">Rinterio</span></a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a class="text-base font-semibold">Home</a></li>
-      <li><a class="text-base font-normal text-[#737373]">Services</a></li>
-       <li><a class="text-base font-normal text-[#737373]">Portfolio</a></li>
-        <li><a class="text-base font-normal text-[#737373]">Blogs</a></li>
-         <li><a class="text-base font-normal text-[#737373]">Contact Us</a></li>
-          
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <div class="hidden sm:block lg:mr-5 lg:space-x-5 ">
-        <i class="fa-solid fa-magnifying-glass rounded-full"></i>
-        <i class="fa-solid fa-cart-shopping rounded-full"></i>
-    </div>
-    <a class="btn bg-[#ABEF5F]">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white w-5 h-5 text-center"></i></a>
-  </div>
-</div>
-          </nav>
-          <section class="my-10">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
 
-          </section>
+                    </div>
+                    <a class="text-xl"><i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full w-5 h-5"></i> <span
+                            class="text-2xl font-bold text-[#212121]">Rinterio</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base font-semibold">Home</a></li>
+                        <li><a class="text-base font-normal text-[#737373]">Services</a></li>
+                        <li><a class="text-base font-normal text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-base font-normal text-[#737373]">Blogs</a></li>
+                        <li><a class="text-base font-normal text-[#737373]">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden sm:block lg:mr-5 lg:space-x-5 ">
+                        <i class="fa-solid fa-magnifying-glass rounded-full"></i>
+                        <i class="fa-solid fa-cart-shopping rounded-full"></i>
+                    </div>
+                    <a class="btn bg-[#ABEF5F] rounded-3xl">Book Consult <i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white w-5 h-5 text-center"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <!-- banner section -->
+            <div class="hero ">
+                <div class="hero-content text-center">
+                    <div class="text-center justify-center ">
+                        <img class="mx-auto mb-5" src="./assets/banner.png" alt="">
+                        <h1 class="text-3xl font-bold lg:text-6xl lg:font-extrabold">A barn house of this design has a
+                            <br>striking appearance</h1>
+                        <p class="py-6 lg:text-base font-normal text-[#494949]">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal <br> accents, and large windows that flood the space
+                            with natural light.
+                        </p>
+                        <button class="btn bg-[#ABEF5F80] rounded-3xl mx-auto text-sm font-bold">View Details <i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full text-black w-5 h-5 text-center"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main class="md:container mx-auto">
+        <section class="my-24">
+            <img class="mb-5" src="./assets/Vector.png" alt="">
+            <button class="btn  rounded-3xl mx-auto text-sm font-bold mx-5 bg-white"> <i
+                    class="fa-solid fa-arrow-right -rotate-45  rounded-full text-black w-5 h-5 text-center"></i>About
+                Us</button>
+
+            <div>
+                <div class="hero bg-base-200 ">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                        <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                            class="max-w-sm rounded-lg shadow-2xl" />
+                        <div>
+                            <h1 class="text-5xl font-bold">Box Office News!</h1>
+                            <p class="py-6">
+                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                exercitationem
+                                quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            </p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
